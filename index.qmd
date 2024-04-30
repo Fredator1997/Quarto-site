@@ -1,0 +1,22 @@
+---
+title: "Introduction à Python"
+---
+C’est quoi Python ?
+
+Python est un langage de programmation largement utilisé, développé par Guido van Rossum aux Pays-Bas en 1989. Van Rossum a nommé cela en référence à la série télévisée "Monty Python's Flying Circus", qu'il appréciait beaucoup. Python a été publié pour la première fois en 1991.
+
+Python est apprécié pour plusieurs raisons :
+
+Compatibilité multiplateforme : Python fonctionne sur divers systèmes d'exploitation, y compris Windows, Mac OS X, Linux, Android et iOS. Il peut être utilisé sur des appareils allant des mini-ordinateurs comme le Raspberry Pi jusqu'aux superordinateurs.
+
+Gratuité : Python est libre et gratuit, ce qui signifie que vous pouvez l'installer et l'utiliser sur autant d'appareils que vous le souhaitez, y compris sur votre téléphone.
+
+Langage de haut niveau : Python est conçu pour être facile à lire et à écrire, nécessitant moins de connaissances techniques sur le fonctionnement des ordinateurs que d'autres langages.
+
+Interprété : Les programmes Python n'ont pas besoin d'être compilés avant leur exécution. Cela les différencie de langages comme C ou C++ et facilite la tâche des développeurs.
+
+Orienté objet : Python permet de créer des entités qui simulent des objets du monde réel, avec leurs propres caractéristiques et interactions, rendant le code plus modulaire et réutilisable.
+
+Facile à apprendre : Python est réputé pour sa simplicité et sa facilité de prise en main pour les débutants.
+
+En conclusion, en raison de sa polyvalence, de sa simplicité et de son large éventail d'applications, Python est un choix populaire pour les développeurs.

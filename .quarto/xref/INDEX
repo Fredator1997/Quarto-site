@@ -1,0 +1,38 @@
+{
+  "about.qmd": {
+    "about.html": "60f6b8f3"
+  },
+  "index.qmd": {
+    "index.html": "bb44c5b6"
+  },
+  "careers.qmd": {
+    "careers.html": "2a47b15c"
+  },
+  "contact.qmd": {
+    "contact.html": "ec9babaa"
+  },
+  "services.qmd": {
+    "services.html": "380a1331"
+  },
+  "Chapitres 1-3.qmd": {
+    "Chapitres 1-3.html": "ca9d185e"
+  },
+  "Chapitres 4-6.qmd": {
+    "Chapitres 4-6.html": "6fa5e1aa"
+  },
+  "Chapitres 7-9.qmd": {
+    "Chapitres 7-9.html": "2a1e7928"
+  },
+  "corrigés.qmd": {
+    "corrigés.html": "9bd40313"
+  },
+  "cours.qmd": {
+    "cours.html": "c43c151c"
+  },
+  "exercices.qmd": {
+    "exercices.html": "33764806"
+  },
+  "cours.ipynb": {
+    "cours.html": "64319a2c"
+  }
+}

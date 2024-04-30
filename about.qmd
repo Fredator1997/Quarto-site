@@ -1,0 +1,5 @@
+---
+title: "A propos"
+---
+Je m'appelle Frederic Padre. Je forme des docteurs en analyse de données. N'hésitez pas à vous rendre sur le site de mon élève Ményssa CHERIFA-LURON pour des cours sur R. https://universdesdonnees.github.io/R-Introduction/cours/Cours.html#les-boucles
+

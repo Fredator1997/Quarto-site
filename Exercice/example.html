@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Exercices Interactifs Python</title>
+  <link rel='shortcut icon' type='image/x-icon' href='https://www.datacamp.com/favicon.ico'/>
+  <style>
+    .exercise {
+      margin: 50px;
+    }
+    .solution {
+      display: none; /* Initially hide solutions */
+    }
+  </style>
+  <script async src="https://cdn.datacamp.com/dcl-react.js.gz"></script>
+  <script>
+    function toggleSolution(id) {
+      var element = document.getElementById(id);
+      if (element.style.display === 'none') {
+        element.style.display = 'block';
+      } else {
+        element.style.display = 'none';
+      }
+    }
+  </script>
+</head>
+<body>
+  <!-- Exercise 1: Variable and Data Type Manipulation - Part 1 -->
+  <div class="exercise">
+    <div class="title">
+      <h2>Exercice 1: Manipulation de Variables et Types de Données</h2>
+      <h3>Instructions - Partie 1 :</h3>
+      <p>Écrivez un script en Python qui réalise les tâches suivantes :</p>
+      <ol>
+        <li>Créez trois variables : une variable age contenant l'entier 30, une variable nom contenant la chaîne de caractères "Alice", et une variable est_etudiant contenant la valeur booléenne True.</li>
+      </ol>
+    </div>
+    <div data-datacamp-exercise data-lang="python">
+      <code data-type="sample-code">
+        # Entrez votre code ici pour manipuler les variables et les types de données.
+      </code>
+      <code data-type="solution">
+        # Solution de l'exercice - Partie 1
+        age = 30
+        nom = "Alice"
+        est_etudiant = True
+      </code>
+      <code data-type="sct">
+        # Test Case Partie 1 Here
+      </code>
+      <div data-type="hint">Hint Partie 1 Here</div>
+    </div>
+  </div>
+
+  <!-- Exercise 1: Variable and Data Type Manipulation - Part 2 -->
+  <div class="exercise">
+    <div class="title">
+      <h3>Instructions - Partie 2 :</h3>
+      <ol start="2">
+        <li>Affichez ces valeurs en une seule ligne en utilisant la fonction print() de façon à obtenir le résultat suivant : "Alice, 30, Etudiant: True".</li>
+      </ol>
+    </div>
+    <div data-datacamp-exercise data-lang="python">
+      <code data-type="sample-code">
+        # Entrez votre code ici pour manipuler les variables et les types de données.
+      </code>
+      <code data-type="solution">
+        # Solution de l'exercice - Partie 2
+        print(f"{nom}, {age}, Etudiant: {est_etudiant}")
+      </code>
+      <code data-type="sct">
+        # Test Case Partie 2 Here
+      </code>
+      <div data-type="hint">Hint Partie 2 Here</div>
+    </div>
+  </div>
+
+  <!-- Exercise 1: Variable and Data Type Manipulation - Part 3 -->
+  <div class="exercise">
+    <div class="title">
+      <h3>Instructions - Partie 3 :</h3>
+      <ol start="3">
+        <li>Changez la valeur de la variable age à 31, modifiez la variable nom pour qu'elle contienne "Alice B." et mettez à jour la variable est_etudiant en False. Réaffichez les valeurs mises à jour de la même manière que précédemment.</li>
+      </ol>
+    </div>
+    <div data-datacamp-exercise data-lang="python">
+      <code data-type="sample-code">
+        # Entrez votre code ici pour manipuler les variables et les types de données.
+      </code>
+      <code data-type="solution">
+        # Solution de l'exercice - Partie 3
+        age = 31
+        nom = "Alice B."
+        est_etudiant = False
+
+        print(f"{nom}, {age}, Etudiant: {est_etudiant}")
+      </code>
+      <code data-type="sct">
+        # Test Case Partie 3 Here
+      </code>
+      <div data-type="hint">Hint Partie 3 Here</div>
+    </div>
+  </div>
+  
+  <!-- Exercise 2: Type Conversion and Operations -->
+  <div class="exercise">
+    <div class="title">
+      <h2>Exercice 2: Conversion de types et opérations</h2>
+    </div>
+    <div data-datacamp-exercise data-lang="python">
+      <div data-type="instructions">
+        <h3>Instructions :</h3>
+        <p>Écrivez un script en Python qui réalise les tâches suivantes :</p>
+        <ol>
+          <li>Créez une variable a contenant la chaîne de caractères "1024".</li>
+          <li>Convertissez cette variable en entier et stockez le résultat dans une variable b.</li>
+          <li>Ajoutez 256 à b en utilisant un opérateur d'affectation composé.</li>
+          <li>Multipliez b par 2 et affichez le résultat.</li>
+          <li>Convertir le résultat final en une chaîne de caractères et affichez cette nouvelle chaîne.</li>
+        </ol>
+      </div>
+      <code data-type="sample-code">
+        # Entrez votre code ici pour effectuer des conversions de types et des opérations.
+      </code>
+      <code data-type="solution">
+        # Solution de l'exercice
+        a = "1024"
+        b = int(a)
+        b += 256
+        b *= 2
+        c = str(b)
+        print(c)
+      </code>
+      <code data-type="sct">
+        test_function("print")
+        success_msg("Bravo ! Vous avez maîtrisé les conversions et les opérations en Python.")
+      </code>
+      <div data-type="hint">N'oubliez pas de convertir les types correctement et de suivre les étapes.</div>
+    </div>
+  </div>
+
+  <!-- Exercise 3: Comments and Displaying Information -->
+  <div class="exercise">
+    <div class="title">
+      <h2>Exercice 3: Commentaires et affichage</h2>
+    </div>
+    <div data-datacamp-exercise data-lang="python">
+      <div data-type="instructions">
+        <h3>Instructions :</h3>
+        <p>Écrivez un script en Python qui réalise les tâches suivantes :</p>
+        <ol>
+          <li>Déclarez trois variables : nom contenant votre nom sous forme de chaîne de caractères, age contenant votre âge comme entier, et ville contenant le nom de votre ville.</li>
+          <li>Utilisez des commentaires pour décrire ce que chaque variable représente.</li>
+          <li>Affichez les informations sous la forme d'une phrase complète en utilisant la méthode print() avec f-string.</li>
+          <li>Utilisez la méthode format() pour afficher la même phrase.</li>
+          <li>Calculez le pourcentage de votre vie passé en supposant une espérance de vie de 100 ans, affichez le résultat avec seulement deux chiffres après la virgule en utilisant f-string.</li>
+        </ol>
+      </div>
+      <code data-type="sample-code">
+        # Entrez votre code ici pour commenter et afficher des informations.
+      </code>
+      <code data-type="solution">
+        # Solution de l'exercice
+        nom = "John Doe"
+        age = 25
+        ville = "Paris"
+
+        print(f"{nom} a {age} ans et vit à {ville}.")
+        print("{} a {} ans et vit à {}.".format(nom, age, ville))
+
+        pourcentage_vie = (age / 100) * 100
+        print(f"{nom} a vécu {pourcentage_vie:.2f}% de sa vie.")
+      </code>
+      <code data-type="sct">
+        test_function("print")
+        success_msg("Bravo ! Vous avez réussi à commenter et à afficher des informations en Python.")
+      </code>
+      <div data-type="hint">N'oubliez pas d'utiliser les commentaires pour expliquer votre code et d'afficher les informations correctement.</div>
+    </div>
+  </div>
+
+  <!-- Exercise 4: Control Structures -->
+  <div class="exercise">
+    <div class="title">
+      <h2>Exercice 4: Structures de contrôle</h2>
+    </div>
+    <div data-datacamp-exercise data-lang="python">
+      <div data-type="instructions">
+        <h3>Instructions :</h3>
+        <p>Écrivez un script en Python qui réalise les tâches suivantes :</p>
+        <ol>
+          <li>Créez une liste de nombres de 1 à 15.</li>
+          <li>Utilisez une boucle for pour parcourir la liste.</li>
+          <li>Dans la boucle, utilisez un opérateur de comparaison pour vérifier si le nombre est divisible par 3 (utilisez l'opérateur modulo %).</li>
+          <li>Utilisez les opérateurs logiques pour afficher si un nombre est à la fois divisible par 3 et supérieur ou égal à 10. Utilisez une boucle while pour afficher uniquement les cinq premiers nombres de la liste, puis interrompez la boucle avec break.</li>
+        </ol>
+      </div>
+      <code data-type="sample-code">
+        # Entrez votre code ici pour manipuler les structures de contrôle.
+      </code>
+      <code data-type="solution">
+        # Solution de l'exercice
+        nombres = list(range(1, 16))
+
+        print("Nombres divisibles par 3:")
+        for nombre in nombres:
+            if nombre % 3 == 0:
+                print(f"{nombre} est divisible par 3")
+
+        print("\nNombres divisibles par 3 et >= 10:")
+        for nombre in nombres:
+            if (nombre % 3 == 0) and (nombre >= 10):
+                print(f"{nombre} est divisible par 3 et supérieur ou égal à 10")
+
+        print("\nAffichage des cinq premiers nombres avec boucle while:")
+        i = 0
+        while i < len(nombres):
+            print(nombres[i])
+            i += 1
+            if i == 5:
+                break
+      </code>
+      <code data-type="sct">
+        test_function("print")
+        success_msg("Félicitations ! Vous avez réussi à manipuler les structures de contrôle en Python.")
+      </code>
+      <div data-type="hint">Assurez-vous de comprendre comment fonctionnent les boucles for et while, ainsi que les opérateurs logiques.</div>
+    </div>
+  </div>
+
+  <!-- Exercise 5: Sequential Structures -->
+  <div class="exercise">
+    <div class="title">
+      <h2>Exercice 5: Structures séquentielles</h2>
+    </div>
+    <div data-datacamp-exercise data-lang="python">
+      <div data-type="instructions">
+        <h3>Instructions :</h3>
+        <p>Écrivez un script en Python qui réalise les tâches suivantes :</p>
+        <ol>
+          <li>Création et manipulation de liste:</li>
+          <ul>
+            <li>Créez une liste fruits contenant les éléments "pomme", "banane" et "cerise".</li>
+            <li>Ajoutez "orange" à la fin de la liste.</li>
+            <li>Supprimez "banane" de la liste.</li>
+            <li>Affichez chaque élément de la liste en utilisant une boucle for.</li>
+          </ul>
+          <li>Manipulation de dictionnaire:</li>
+          <ul>
+            <li>Créez un dictionnaire personne avec les clés "nom" et "age", contenant respectivement "Alice" et 30.</li>
+            <li>Ajoutez la clé "ville" avec la valeur "Paris".</li>
+            <li>Modifiez la valeur de "age" à 31.</li>
+            <li>Affichez toutes les paires clé-valeur en utilisant une boucle for.</li>
+          </ul>
+          <li>Utilisation des ensembles:</li>
+          <ul>
+            <li>Créez un ensemble ensemble1 contenant les nombres 1, 2, 3 et 4.</li>
+            <li>Créez un ensemble ensemble2 contenant les nombres 3, 4, 5 et 6.</li>
+            <li>Affichez l'intersection et l'union de ces deux ensembles.</li>
+          </ul>
+          <li>Manipulation de tuple:</li>
+          <ul>
+            <li>Créez un tuple dimensions avec les valeurs (10, 20, 30).</li>
+            <li>Affichez chaque élément du tuple en utilisant une boucle for.</li>
+          </ul>
+        </ol>
+      </div>
+      <code data-type="sample-code">
+        # Entrez votre code ici pour manipuler les structures séquentielles.
+      </code>
+      <code data-type="solution">
+        # Solution de l'exercice
+        fruits = ["pomme", "banane", "cerise"]
+        fruits.append("orange")
+        fruits.remove("banane")
+        print("Liste des fruits:")
+        for fruit in fruits:
+            print(fruit)
+
+        personne = {"nom": "Alice", "age": 30}
+        personne["ville"] = "Paris"
+        personne["age"] = 31
+        print("\nDétails de la personne:")
+        for cle, valeur in personne.items():
+            print(f"{cle}: {valeur}")
+
+        ensemble1 = {1, 2, 3, 4}
+        ensemble2 = {3, 4, 5, 6}
+        print("\nIntersection:", ensemble1 & ensemble2)
+        print("Union:", ensemble1 | ensemble2)
+
+        dimensions = (10, 20, 30)
+        print("\nDimensions du tuple:")
+        for dimension in dimensions:
+            print(dimension)
+      </code>
+      <code data-type="sct">
+        test_function("print")
+        success_msg("Bravo ! Vous avez maîtrisé les structures séquentielles en Python.")
+      </code>
+      <div data-type="hint">Pratiquez la manipulation des listes, des dictionnaires, des ensembles et des tuples.</div>
+    </div>
+  </div>
+
+  <!-- Exercise 6: Functions -->
+  <div class="exercise">
+    <div class="title">
+      <h2>Exercice 6: Fonctions</h2>
+    </div>
+    <div data-datacamp-exercise data-lang="python">
+      <div data-type="instructions">
+        <h3>Instructions :</h3>
+        <p>Écrivez un script en Python qui réalise les tâches suivantes :</p>
+        <ol>
+          <li>Définition d'une fonction calculer_somme:</li>
+          <ul>
+            <li>Créez une fonction nommée calculer_somme qui prend deux paramètres, a et b.</li>
+            <li>La fonction doit calculer la somme de ces deux paramètres et renvoyer le résultat.</li>
+          </ul>
+          <li>Définition d'une fonction afficher_resultat:</li>
+          <ul>
+            <li>Créez une autre fonction nommée afficher_resultat qui prend un paramètre resultat.</li>
+            <li>La fonction doit afficher le résultat avec un message préformaté, par exemple : "Le résultat est : X", où X est la valeur du résultat passé à la fonction.</li>
+          </ul>
+          <li>Utilisation des fonctions dans le programme principal:</li>
+          <ul>
+            <li>Dans le programme principal, demandez à l'utilisateur de saisir deux nombres.</li>
+            <li>Convertissez ces entrées en entiers.</li>
+            <li>Appelez calculer_somme avec ces deux nombres comme arguments, et stockez le résultat.</li>
+            <li>Utilisez la fonction afficher_resultat pour afficher le résultat de la somme.</li>
+          </ul>
+        </ol>
+      </div>
+      <code data-type="sample-code">
+        # Entrez votre code ici pour créer et utiliser des fonctions.
+      </code>
+      <code data-type="solution">
+        # Solution de l'exercice
+        def calculer_somme(a, b):
+            return a + b
+
+        def afficher_resultat(resultat):
+            print(f"Le résultat est : {resultat}")
+
+        nombre1 = int(input("Entrez le premier nombre : "))
+        nombre2 = int(input("Entrez le deuxième nombre : "))
+
+        resultat = calculer_somme(nombre1, nombre2)
+
+        afficher_resultat(resultat)
+      </code>
+      <code data-type="sct">
+        test_function("print")
+        success_msg("Excellent ! Vous avez maîtrisé la création et l'utilisation de fonctions en Python.")
+      </code>
+      <div data-type="hint">N'oubliez pas de définir vos fonctions et de les appeler dans le programme principal.</div>
+    </div>
+  </div>
+</body>
+</html>

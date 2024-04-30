@@ -1,0 +1,65 @@
+project:
+  type: website
+
+execute: 
+  freeze: auto
+
+website:
+  title: "Introduction à Python"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Accueil
+      - href: cours.qmd
+        text: Cours
+      - href: exercices.qmd
+        text: Exercices
+
+format: 
+ html:
+  theme: 
+      light : cosmo
+      dark : cyborg 
+  css: styles.css
+  toc: true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
