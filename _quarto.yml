@@ -5,7 +5,7 @@ execute:
   freeze: auto
 
 website:
-  title: "Introduction à Python"
+  title: "Pythonnesque"
   navbar:
     left:
       - href: index.qmd

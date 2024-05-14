@@ -1,33 +1,5 @@
 [
   {
-    "objectID": "services.html",
-    "href": "services.html",
-    "title": "Services",
-    "section": "",
-    "text": "We provide supply chains for grocery stores in all the world."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "Phone : Mail : Social media :"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "A propos",
-    "section": "",
-    "text": "Je m’appelle Frederic Padre. Je forme des docteurs en analyse de données. N’hésitez pas à vous rendre sur le site de mon élève Ményssa CHERIFA-LURON pour des cours sur R. https://universdesdonnees.github.io/R-Introduction/cours/Cours.html#les-boucles"
-  },
-  {
-    "objectID": "careers.html",
-    "href": "careers.html",
-    "title": "Chapitres 1-3",
-    "section": "",
-    "text": "Welcome to our recruitment page."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Introduction à Python",
@@ -140,59 +112,10 @@
     "text": "5.5 Dictionnaires (dict) :\n\nFondés sur des paires essentielles.\nLes valeurs peuvent être consultées grâce aux clés.\nTransférables, offrant la possibilité de mettre à jour et de supprimer.\nExemple : {\"nom\": \"Maroua\", \"âge\": 30}.\nGestion d’informations organisées : Idéal pour conserver des données complexes telles que des données utilisateur.\nRecherche rapide : Optez pour des dictionnaires afin de réaliser des recherches rapides en utilisant des clés spécifiques.\n\n# Définition d'un dictionnaire\npersonne = {\"nom\": \"Maroua\", \"age\": 30}\nautre_dict = dict(nom=\"Mouloud\", age=25)\n\n# Ajout et Mise à Jour\npersonne[\"profession\"] = \"Referente pedagogique\"\n# Utilisation de keys()\ncles = personne.keys()\nprint(\"Clés:\", cles)\n\n# Utilisation de values()\nvaleurs = personne.values()\nprint(\"Valeurs:\", valeurs)\n\n# Utilisation de items()\npaires = personne.items()\nprint(\"Paires clé-valeur:\", paires)\n\n# Utilisation de get()\nnom = personne.get(\"nom\")  # Retourne 'Maroua'\nville = personne.get(\"ville\", \"Non spécifiée\")  # Retourne 'Non spécifiée' car 'ville' n'existe pas\nprint(\"Nom:\", nom)\nprint(\"Ville:\", ville)\n\n# Parcours des clés\nprint(\"\\nParcours des clés:\")\nfor cle in personne:\n    print(cle)\n\n# Parcours des valeurs\nprint(\"\\nParcours des valeurs:\")\nfor valeur in personne.values():\n    print(valeur)\n\n# Parcours des paires clé-valeur\nprint(\"\\nParcours des paires clé-valeur:\")\nfor cle, valeur in personne.items():\n    print(cle, \":\", valeur)\n\nprint(\"\\nParcours des paires clé-valeur avec enumerate:\")\nfor index, (cle, valeur) in enumerate(personne.items()):\n    print(f\"Index {index}: Clé = {cle}, Valeur = {valeur}\")\n# Suppression\ndel personne[\"age\"]\nprofession = personne.pop(\"profession\")\npersonne"
   },
   {
-    "objectID": "exercices.html",
-    "href": "exercices.html",
-    "title": "Exercices",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "A propos",
     "section": "",
-    "text": "Vous devez écrire un script en Python qui réalise les tâches suivantes :\n\nCréez trois variables : une variable age contenant l’entier 30, une variable nom contenant la chaîne de caractères “Alice”, et une variable est_etudiant contenant la valeur booléenne True.\nAffichez ces valeurs en une seule ligne en utilisant la fonction print() de façon à obtenir le résultat suivant : “Alice, 30, Etudiant: True”.\nChangez la valeur de la variable age à 31, modifiez la variable nom pour qu’elle contienne “Alice B.” et mettez à jour la variable est_etudiant en False. Réaffichez les valeurs mises à jour de la même manière que précédemment.\n\n\n\n\n\n# Création des variables\nage = 30\nnom = \"Alice\"\nest_etudiant = True\n\n# Affichage des informations\nprint(f\"{nom}, {age}, Etudiant: {est_etudiant}\")\n\n# Mise à jour des variables\nage = 31\nnom = \"Alice B.\"\nest_etudiant = False\n\n# Réaffichage des informations mises à jour\nprint(f\"{nom}, {age}, Etudiant: {est_etudiant}\")"
-  },
-  {
-    "objectID": "exercices.html#partie-1-manipulation-de-variables",
-    "href": "exercices.html#partie-1-manipulation-de-variables",
-    "title": "Exercices",
-    "section": "",
-    "text": "age = 25 -&gt; Remplacez 25 par votre âge réel prenom = “Alice” -&gt; Remplacez Alice par votre prénom print(f”Bonjour {prenom}, vous avez {age} ans.”)\nage = 26 # Nouvel âge print(f”Bonjour {prenom}, maintenant vous avez {age} ans.”)"
-  },
-  {
-    "objectID": "exercices.html#solution",
-    "href": "exercices.html#solution",
-    "title": "Exercices",
-    "section": "",
-    "text": "# Création des variables\nage = 30\nnom = \"Alice\"\nest_etudiant = True\n\n# Affichage des informations\nprint(f\"{nom}, {age}, Etudiant: {est_etudiant}\")\n\n# Mise à jour des variables\nage = 31\nnom = \"Alice B.\"\nest_etudiant = False\n\n# Réaffichage des informations mises à jour\nprint(f\"{nom}, {age}, Etudiant: {est_etudiant}\")"
-  },
-  {
-    "objectID": "exercices.html#solution-1",
-    "href": "exercices.html#solution-1",
-    "title": "Exercices",
-    "section": "Solution :",
-    "text": "Solution :\n# Étape 1: Création de la variable initiale\na = \"1024\"\n\n# Étape 2: Conversion de la chaîne en entier\nb = int(a)\n\n# Étape 3: Addition avec affectation composée\nb += 256\n\n# Étape 4: Multiplication et affichage du résultat\nb *= 2\nprint(b)  # Doit afficher 2560\n\n# Étape 5: Conversion du résultat en chaîne de caractères et affichage\nc = str(b)\nprint(c)  # Doit afficher \"2560\""
-  },
-  {
-    "objectID": "exercices.html#solution-2",
-    "href": "exercices.html#solution-2",
-    "title": "Exercices",
-    "section": "Solution :",
-    "text": "Solution :\n# Étape 1: Déclaration des variables\nnom = \"Alice\"  # Nom de l'utilisateur\nage = 30       # Age de l'utilisateur\nville = \"Paris\"  # Ville de résidence de l'utilisateur\n\n# Étape 2: Utilisation de commentaires pour expliquer les variables\n# Ceci est une chaîne de caractères qui stocke le nom de l'utilisateur\n# Ceci est un entier qui stocke l'âge de l'utilisateur\n# Ceci est une chaîne de caractères qui stocke la ville de l'utilisateur\n\n# Étape 3: Affichage avec f-string\nprint(f\"{nom} a {age} ans et vit à {ville}.\")  # Utilisation de f-string pour une meilleure lisibilité\n\n# Étape 4: Affichage avec format()\nprint(\"{} a {} ans et vit à {}.\".format(nom, age, ville))  # Utilisation de la méthode format pour l'affichage\n\n# Étape 5: Calcul du pourcentage de vie passé\npourcentage_vie = (age / 100) * 100\n# Affichage du pourcentage avec deux chiffres après la virgule\nprint(f\"{nom} a vécu {pourcentage_vie:.2f}% de son espérance de vie présumée de 100 ans.\")"
-  },
-  {
-    "objectID": "exercices.html#solution-3",
-    "href": "exercices.html#solution-3",
-    "title": "Exercices",
-    "section": "Solution :",
-    "text": "Solution :\n# Étape 1: Création de la liste des nombres\nnombres = list(range(1, 16))\n\n# Étape 2 et 3: Boucle for pour vérifier la divisibilité\nprint(\"Nombres divisibles par 3:\")\nfor nombre in nombres:\n    if nombre % 3 == 0:\n        print(f\"{nombre} est divisible par 3\")\n\n# Étape 4: Vérifier les conditions multiples avec opérateurs logiques\nprint(\"\\nNombres divisibles par 3 et &gt;= 10:\")\nfor nombre in nombres:\n    if (nombre % 3 == 0) and (nombre &gt;= 10):\n        print(f\"{nombre} est divisible par 3 et supérieur ou égal à 10\")\n\n# Étape 5: Boucle while pour afficher les cinq premiers nombres\nprint(\"\\nAffichage des cinq premiers nombres avec boucle while:\")\ni = 0\nwhile i &lt; len(nombres):\n    print(nombres[i])\n    i += 1\n    if i == 5:\n        break"
-  },
-  {
-    "objectID": "exercices.html#solution-4",
-    "href": "exercices.html#solution-4",
-    "title": "Exercices",
-    "section": "Solution",
-    "text": "Solution\n# Étape 1: Création et manipulation de liste\nfruits = [\"pomme\", \"banane\", \"cerise\"]\nfruits.append(\"orange\")\nfruits.remove(\"banane\")\nprint(\"Liste des fruits:\")\nfor fruit in fruits:\n    print(fruit)\n\n# Étape 2: Manipulation de dictionnaire\npersonne = {\"nom\": \"Alice\", \"age\": 30}\npersonne[\"ville\"] = \"Paris\"\npersonne[\"age\"] = 31\nprint(\"\\nDétails de la personne:\")\nfor cle, valeur in personne.items():\n    print(f\"{cle}: {valeur}\")\n\n# Étape 3: Utilisation des ensembles\nensemble1 = {1, 2, 3, 4}\nensemble2 = {3, 4, 5, 6}\nprint(\"\\nIntersection:\", ensemble1 & ensemble2)\nprint(\"Union:\", ensemble1 | ensemble2)\n\n# Étape 4: Manipulation de tuple\ndimensions = (10, 20, 30)\nprint(\"\\nDimensions du tuple:\")\nfor dimension in dimensions:\n    print(dimension)"
-  },
-  {
-    "objectID": "exercices.html#solution-5",
-    "href": "exercices.html#solution-5",
-    "title": "Exercices",
-    "section": "Solution :",
-    "text": "Solution :\n# Étape 1: Définition de la fonction pour calculer la somme\ndef calculer_somme(a, b):\n    return a + b\n\n# Étape 2: Définition de la fonction pour afficher le résultat\ndef afficher_resultat(resultat):\n    print(f\"Le résultat est : {resultat}\")\n\n# Étape 3: Utilisation des fonctions dans le programme principal\n# Demande des entrées utilisateur\nnombre1 = int(input(\"Entrez le premier nombre : \"))\nnombre2 = int(input(\"Entrez le deuxième nombre : \"))\n\n# Calcul de la somme\nresultat = calculer_somme(nombre1, nombre2)\n\n# Affichage du résultat\nafficher_resultat(resultat)"
+    "text": "Je m’appelle Frederic Padre. Je forme des docteurs en analyse de données. N’hésitez pas à vous rendre sur le site de mon élève Ményssa CHERIFA-LURON pour des cours sur R. https://universdesdonnees.github.io/R-Introduction/cours/Cours.html#les-boucles"
   }
 ]
